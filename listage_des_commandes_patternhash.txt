@@ -1,0 +1,11 @@
+######################
+#  PatternHASH HELP  #
+######################
+
+PatternHASH : permet de reconnaitre le type d'un hash a partir de pattern
+
+!typehash [ *HASH ] : permet de reconnaitre le type de hash du hash entre
+
+!listtypehash : liste l'ensemble des types de hash avec leurs patterns 
+
+        [ HASH ] --> 703862f5d0ee949ef9fc97c4be2dc6f5

@@ -1,0 +1,20 @@
+######################
+#   HashCrack HELP   #
+######################
+
+HashCrack : permet de cracker un hash par dictionnaire et bruteforcing
+
+!crack [ *HASH ] [ *type HASH ] [ *wordlist ]: commande du module Hashcrack qui permet de cracker
+                                un hash et de sortir un mot de passe
+
+!crackshow [ *HASH ] [ *type HASH ] [ *wordlist ]: commande du module HashCrack qui permet de cracker
+                                un hash et de sortir un mot de passe en listant des 
+                                informations supplementaires comme le nombre de tentaive
+
+!wordlist: commande du module qui permet de lister les dictionnaires de test
+
+            [ HASH ] --> 703862f5d0ee949ef9fc97c4be2dc6f5
+
+            [ type HASH ] --> MD5
+
+            [ wordlist ] --> rockyou.txt

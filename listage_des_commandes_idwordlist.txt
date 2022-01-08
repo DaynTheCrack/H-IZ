@@ -1,0 +1,19 @@
+######################
+#   IDwordlist HELP  #
+######################
+
+IDwordlist : permet de generer un dictionnaire de mot de passe base sur l'identifiant du user
+
+!idwordlist [ *userID ] [ *name output ] and [ *file type output ] : genere le dictionnaire de mot de passe
+
+!wordlist [ *userID ] [ *number ] : genere le dictionnaire de mot de passe selon un niveau de 1 a 10 
+                                pour chaque "1" d'unite ajouter 1000 mots
+
+            [ userID ] --> alexandre
+
+            [ name output ] --> wordlist.txt
+
+            [ file type output ] --> .txt
+
+            [ number ] --> 1 to 10
+        

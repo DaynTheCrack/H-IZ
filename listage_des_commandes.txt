@@ -1,0 +1,31 @@
+###################################
+#Bienvenue dans le terminal H-IZ !#
+###################################
+Ce terminal a pour objectif une reconnaisance avec phase active dans le crackage de mot de passe/Hash
+Pour plus de fonctionnalitees vous pouvez contacter l'auteur en envoyant un e-mail sur:
+///alexandre.thoyon@gmail.com///
+###################################
+Pour partager le code et installer le programme rendez-vous sur:
+///https://github.com/DaynTheCrack///
+Listage des commandes:
+
+whereami : permet savoir dans quel module de H-IZ nous trouvons
+
+    .. : permet de bouger vers le dossier precedent
+
+    idwordlist : permet de se deplacer dans le module IDwordlist de H-IZ
+            [ IDwordlist ] est un module qui permet de creer un dictionnaire 
+            de mot de passe basse sur la reconnaisance de l'indentifiant
+
+    patternhash : permet de se deplacer dans le module PatternHASH
+            [ PatternHASH ] est un module qui permet de reconnaitre le
+            type d'un hash a patir d'une liste de pattern
+
+    hashcrack : permet de se deplacer dans le module HashCrack
+            [ HashCrack ] est un module qui permet de cracker un hash par 
+            reconnaisance et bruteforcing
+
+    datawordlist : permet de se deplacer dans le module DataWordlist
+            [ DataWordlist ] est un module qui permet de creer un dictionnaire
+            de mot de passe a partir d'informations recoltees sur la cible
+
