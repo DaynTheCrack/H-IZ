@@ -1,11 +1,12 @@
+################## modules
 import os
 import random
-################## Module 
+##################  def de création d'une wordlist
 def idwordlist(name):
-    name1 = name + ".txt"
+    name1 = "worlist//" + name + ".txt"
     if name == "!remove":
         filepath = input("Entrez le path du fichier :")
-        os.remove(str(filepath))
+        os.remove("worlist//" + str(filepath))
     else:
         caraspeliste = []
         capitallist = []
@@ -129,6 +130,14 @@ while command.lower() != "!q":
                 elif command.lower() == "!command":
                     os.system('cls')
                     print(helpidwordlist)
+                elif command.lower() == "!remove":
+                    listeSupp = []
+                    boucle = int(input("Combien de fichier souhaites-tu supprimer ?"))
+                    for fichier in range(boucle):
+                        fichierSupp = input("Quel est le nom du fichier que vous souhaitez supprimer ?")
+                        listeSupp.append(fichierSupp)
+                    for k in range(len(listeSupp)):
+                        os.remove("worlist//" + str(listeSupp[k]))
                 elif command.lower() == "!idwordlist":
                     name = input("Quelle est le pseudo de l'utilisateur:")
                     idwordlist(name)
